@@ -1,0 +1,129 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Include file="atlas.xml"/>
+	<Include file="..\flex-button-base\template.xml"/>
+
+	<Button name="ModernUI_Buttons_Close" frameLevel="510" virtual="true">
+		<Size x="24" y="24"/>
+		<DisabledTexture inherits="ModernUI_Buttons_Atlas_Close_Disabled"/>
+		<NormalTexture inherits="ModernUI_Buttons_Atlas_Close"/>
+		<PushedTexture inherits="ModernUI_Buttons_Atlas_Close_Pressed"/>
+		<HighlightTexture inherits="ModernUI_Buttons_Atlas_Close_Highlight" alphaMode="ADD"/>
+	</Button>
+
+	<Button name="ModernUI_Buttons_Reset" frameLevel="510" virtual="true">
+		<Size x="24" y="24"/>
+		<DisabledTexture inherits="ModernUI_Buttons_Atlas_Refresh_Disabled"/>
+		<NormalTexture inherits="ModernUI_Buttons_Atlas_Refresh"/>
+		<PushedTexture inherits="ModernUI_Buttons_Atlas_Refresh_Pressed"/>
+		<HighlightTexture inherits="ModernUI_Buttons_Atlas_Refresh_Highlight" alphaMode="ADD"/>
+	</Button>
+
+	<Button name="ModernUI_Buttons_ArrowUp" frameLevel="510" virtual="true">
+		<Size x="24" y="24"/>
+		<DisabledTexture inherits="ModernUI_Buttons_Atlas_ArrowUp_Disabled"/>
+		<NormalTexture inherits="ModernUI_Buttons_Atlas_ArrowUp"/>
+		<PushedTexture inherits="ModernUI_Buttons_Atlas_ArrowUp_Pressed"/>
+		<HighlightTexture inherits="ModernUI_Buttons_Atlas_ArrowUp_Highlight" alphaMode="ADD"/>
+	</Button>
+
+	<Button name="ModernUI_Buttons_ArrowDown" frameLevel="510" virtual="true">
+		<Size x="24" y="24"/>
+		<DisabledTexture inherits="ModernUI_Buttons_Atlas_ArrowDown_Disabled"/>
+		<NormalTexture inherits="ModernUI_Buttons_Atlas_ArrowDown"/>
+		<PushedTexture inherits="ModernUI_Buttons_Atlas_ArrowDown_Pressed"/>
+		<HighlightTexture inherits="ModernUI_Buttons_Atlas_ArrowDown_Highlight" alphaMode="ADD"/>
+	</Button>
+
+	<Button name="ModernUI_Buttons_Minus" frameLevel="510" virtual="true">
+		<Size x="24" y="24"/>
+		<DisabledTexture inherits="ModernUI_Buttons_Atlas_Minus_Disabled"/>
+		<NormalTexture inherits="ModernUI_Buttons_Atlas_Minus"/>
+		<PushedTexture inherits="ModernUI_Buttons_Atlas_Minus_Pressed"/>
+		<HighlightTexture inherits="ModernUI_Buttons_Atlas_Minus_Highlight" alphaMode="ADD"/>
+	</Button>
+
+	<Button name="ModernUI_Buttons_Plus" frameLevel="510" virtual="true">
+		<Size x="24" y="24"/>
+		<DisabledTexture inherits="ModernUI_Buttons_Atlas_Plus_Disabled"/>
+		<NormalTexture inherits="ModernUI_Buttons_Atlas_Plus"/>
+		<PushedTexture inherits="ModernUI_Buttons_Atlas_Plus_Pressed"/>
+		<HighlightTexture inherits="ModernUI_Buttons_Atlas_Plus_Highlight" alphaMode="ADD"/>
+	</Button>
+
+	<Button name="ModernUI_Buttons_Flex_Blank" inherits="ModernUI_FlexButton_Base" virtual="true">
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture parentKey="TextureLeft" inherits="ModernUI_Buttons_Atlas_Flex_Left">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TextureRight" inherits="ModernUI_Buttons_Atlas_Flex_Right">
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TextureCenter" inherits="ModernUI_Buttons_Atlas_Flex_Center" horizTile="true">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TexturePushedLeft" inherits="ModernUI_Buttons_Atlas_Flex_Pushed_Left">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TexturePushedRight" inherits="ModernUI_Buttons_Atlas_Flex_Pushed_Right">
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TexturePushedCenter" inherits="ModernUI_Buttons_Atlas_Flex_Pushed_Center" horizTile="true">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TextureDisabledLeft" inherits="ModernUI_Buttons_Atlas_Flex_Disabled_Left">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TextureDisabledRight" inherits="ModernUI_Buttons_Atlas_Flex_Disabled_Right">
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture parentKey="TextureDisabledCenter" inherits="ModernUI_Buttons_Atlas_Flex_Disabled_Center" horizTile="true">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="HIGHLIGHT">
+				<Texture inherits="ModernUI_Buttons_Atlas_Flex_Highlight" alphaMode="ADD">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativePoint="TOPLEFT"/>
+						<Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMRIGHT"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Button>
+
+	<Button name="ModernUI_Buttons_Flex" inherits="ModernUI_Buttons_Flex_Blank" virtual="true">
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString parentKey="Text" inherits="GameFontNormal" justifyH="CENTER" justifyV="MIDDLE" text="Test Button">
+					<Anchors>
+						<Anchor point="CENTER"/>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Button>
+
+</Ui>

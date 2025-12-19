@@ -1,0 +1,35 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Button name="ModernUI_FlexButton_Base" enableMouse="true" registerForClicks="LeftButtonUp, LeftButtonDown" virtual="true">
+		<Scripts>
+			<OnLoad>
+				ModernUI_FlexButton_Initialize(self)
+			</OnLoad>
+			<OnSizeChanged>
+				ModernUI_FlexButton_UpdateScale(self)
+			</OnSizeChanged>
+			<OnShow>
+				ModernUI_FlexButton_OnEvent(self, "SHOW")
+			</OnShow>
+			<OnMouseDown>
+				ModernUI_FlexButton_OnEvent(self, "MOUSE_DOWN")
+			</OnMouseDown>
+			<OnMouseUp>
+				ModernUI_FlexButton_OnEvent(self, "MOUSE_UP")
+			</OnMouseUp>
+			<OnDisable>
+				ModernUI_FlexButton_OnEvent(self, "DISABLE")
+			</OnDisable>
+			<OnEnable>
+				ModernUI_FlexButton_OnEvent(self, "ENABLE")
+			</OnEnable>
+			<OnEnter>
+				ModernUI_FlexButton_OnEvent(self, "ENTER")
+			</OnEnter>
+			<OnLeave>
+				ModernUI_FlexButton_OnEvent(self, "LEAVE")
+			</OnLeave>
+		</Scripts>
+	</Button>
+
+</Ui>

@@ -1,0 +1,8 @@
+## Interface: 30300
+## Version: 0.0.1
+## Title : WoW Modern UI Templates
+## Notes: Workshop and sanbox addon
+## Author: Zamralik
+
+template\flex-button-base\script.lua
+template\buttons\template.xml

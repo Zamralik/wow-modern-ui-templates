@@ -1,0 +1,189 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Texture name="ModernUI_Buttons_Atlas" file="Interface\AddOns\wow-modern-ui-templates\template\buttons\texture.blp" virtual="true"></Texture>
+
+	<!-- Close -->
+
+	<Texture name="ModernUI_Buttons_Atlas_Close_Pushed" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.509766" right="0.759766" top="0.571777" bottom="0.634277"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Close_Disabled" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.571777" bottom="0.634277"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Close" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.509766" right="0.759766" top="0.508301" bottom="0.570801"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Close_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.571777" bottom="0.634277"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<!-- Refresh -->
+
+	<Texture name="ModernUI_Buttons_Atlas_Refresh_Pushed" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.825684" bottom="0.888184"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Refresh" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.88916" bottom="0.95166"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Refresh_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.509766" right="0.759766" top="0.762207" bottom="0.824707"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Refresh_Disabled" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.762207" bottom="0.824707"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<!-- Arrow Down -->
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowDown_Disabled" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.576172" right="0.826172" top="0.317871" bottom="0.380371"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowDown_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.576172" right="0.826172" top="0.381348" bottom="0.443848"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowDown_Pushed" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.444824" bottom="0.507324"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowDown" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.576172" right="0.826172" top="0.254395" bottom="0.316895"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<!-- Arrow Up -->
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowUpGlow_Disabled" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.509766" right="0.759766" top="0.444824" bottom="0.507324"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowUpGlow_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.508301" bottom="0.570801"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowUpGlow_Pushed" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.508301" bottom="0.570801"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_ArrowUpGlow" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.444824" bottom="0.507324"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<!-- Minus -->
+
+	<Texture name="ModernUI_Buttons_Atlas_Minus_Disabled" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.635254" bottom="0.697754"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Minus_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.509766" right="0.759766" top="0.635254" bottom="0.697754"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Minus_Pushed" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.69873" bottom="0.76123"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Minus" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.635254" bottom="0.697754"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<!-- Plus -->
+
+	<Texture name="ModernUI_Buttons_Atlas_Plus_Disabled" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.509766" right="0.759766" top="0.69873" bottom="0.76123"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Plus_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.762207" bottom="0.824707"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Plus_Pushed" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.251953" top="0.825684" bottom="0.888184"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Plus" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.255859" right="0.505859" top="0.69873" bottom="0.76123"/>
+		<Size x="128" y="128"/>
+	</Texture>
+
+	<!-- Large -->
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Highlight" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.863281" top="0.190918" bottom="0.253418"/>
+		<Size x="441" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Disabled_Left" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.763672" right="0.986328" top="0.508301" bottom="0.570801"/>
+		<Size x="114" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Pushed_Left" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.763672" right="0.986328" top="0.571777" bottom="0.634277"/>
+		<Size x="114" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Left" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.763672" right="0.986328" top="0.444824" bottom="0.507324"/>
+		<Size x="114" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Disabled_Right" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.572266" top="0.317871" bottom="0.380371"/>
+		<Size x="292" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Pushed_Right" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.572266" top="0.381348" bottom="0.443848"/>
+		<Size x="292" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Right" inherits="ModernUI_Buttons_Atlas" virtual="true">
+		<TexCoords left="0.00195312" right="0.572266" top="0.254395" bottom="0.316895"/>
+		<Size x="292" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Disabled_Center" inherits="ModernUI_Buttons_Atlas" horizTile="true" virtual="true">
+		<TexCoords left="0" right="0.125" top="0.0639648" bottom="0.126465"/>
+		<Size x="64" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Pushed_Center" inherits="ModernUI_Buttons_Atlas" horizTile="true" virtual="true">
+		<TexCoords left="0" right="`0.125" top="0.127441" bottom="0.189941"/>
+		<Size x="64" y="128"/>
+	</Texture>
+
+	<Texture name="ModernUI_Buttons_Atlas_Flex_Center" inherits="ModernUI_Buttons_Atlas" horizTile="true" virtual="true">
+		<TexCoords left="0" right="0.125" top="0.000488281" bottom="0.0629883"/>
+		<Size x="64" y="128"/>
+	</Texture>
+
+</Ui>
